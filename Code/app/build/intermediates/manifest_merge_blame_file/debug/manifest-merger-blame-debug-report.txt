@@ -1,0 +1,175 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.github.epubparsersampleandroidapplication"
+4    android:versionCode="4"
+5    android:versionName="1.0.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:5:5-80
+11-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:5:22-77
+12
+13    <uses-feature
+13-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:6:5-8:35
+14        android:name="android.hardware.sensor.proximity"
+14-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:7:9-57
+15        android:required="true" />
+15-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:8:9-32
+16    <uses-feature
+16-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:9:5-11:35
+17        android:name="android.hardware.sensor.gyroscope"
+17-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:10:9-57
+18        android:required="true" />
+18-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:11:9-32
+19
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:12:5-67
+20-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:12:22-64
+21
+22    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+23    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.google.firebase:firebase-database:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/78165ff6e563948a6bede130dc669b0e/firebase-database-19.2.0/AndroidManifest.xml:25:5-79
+24-->[com.google.firebase:firebase-database:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/78165ff6e563948a6bede130dc669b0e/firebase-database-19.2.0/AndroidManifest.xml:25:22-76
+25
+26    <application
+26-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:14:5-38:19
+27        android:allowBackup="true"
+27-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:15:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/e437993c65eb554db594c0dc6e1c5a06/core-1.1.0/AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:16:9-43
+31        android:label="@string/app_name"
+31-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:17:9-41
+32        android:supportsRtl="true"
+32-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:18:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+34-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:19:9-67
+35        <activity
+35-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:20:9-29:20
+36            android:name="com.github.epubparsersampleandroidapplication.SignUp"
+36-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:21:13-35
+37            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+37-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:22:13-69
+38            <intent-filter>
+38-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:24:13-28:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:25:17-69
+39-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:25:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:27:17-77
+41-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:27:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:30:9-31:59
+45            android:name="com.github.epubparsersampleandroidapplication.MainActivityTest"
+45-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:30:19-51
+46            android:windowSoftInputMode="adjustNothing" />
+46-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:31:13-56
+47        <activity
+47-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:32:9-33:71
+48            android:name="com.github.epubparsersampleandroidapplication.ActivityLogin"
+48-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:32:19-48
+49            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+49-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:33:13-69
+50        <activity
+50-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:34:9-35:58
+51            android:name="com.github.epubparsersampleandroidapplication.MenuActivity"
+51-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:34:19-47
+52            android:windowSoftInputMode="adjustNothing" />
+52-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:35:13-56
+53        <activity
+53-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:36:9-37:59
+54            android:name="com.github.epubparsersampleandroidapplication.MainActivity"
+54-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:36:19-47
+55            android:windowSoftInputMode="adjustNothing" />
+55-->/Users/amishajindal28/Desktop/Semester 1/Mobile & Ubiquitous Computing/Final Project/Florina code/stud-e-book/app/src/main/AndroidManifest.xml:37:13-56
+56
+57        <service
+57-->[com.google.firebase:firebase-database:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/78165ff6e563948a6bede130dc669b0e/firebase-database-19.2.0/AndroidManifest.xml:29:9-35:19
+58            android:name="com.google.firebase.components.ComponentDiscoveryService"
+58-->[com.google.firebase:firebase-database:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/78165ff6e563948a6bede130dc669b0e/firebase-database-19.2.0/AndroidManifest.xml:30:13-84
+59            android:directBootAware="true"
+59-->[com.google.firebase:firebase-common:19.3.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/daa6602ad61c2e7777573adb39793a0f/firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+60            android:exported="false" >
+60-->[com.google.firebase:firebase-database:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/78165ff6e563948a6bede130dc669b0e/firebase-database-19.2.0/AndroidManifest.xml:31:13-37
+61            <meta-data
+61-->[com.google.firebase:firebase-database:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/78165ff6e563948a6bede130dc669b0e/firebase-database-19.2.0/AndroidManifest.xml:32:13-34:85
+62                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+62-->[com.google.firebase:firebase-database:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/78165ff6e563948a6bede130dc669b0e/firebase-database-19.2.0/AndroidManifest.xml:33:17-109
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-database:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/78165ff6e563948a6bede130dc669b0e/firebase-database-19.2.0/AndroidManifest.xml:34:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-firestore:21.3.1] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/fb4bfbd368069294da4cef23a07bb5a4/firebase-firestore-21.3.1/AndroidManifest.xml:20:13-22:85
+65                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+65-->[com.google.firebase:firebase-firestore:21.3.1] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/fb4bfbd368069294da4cef23a07bb5a4/firebase-firestore-21.3.1/AndroidManifest.xml:21:17-111
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-firestore:21.3.1] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/fb4bfbd368069294da4cef23a07bb5a4/firebase-firestore-21.3.1/AndroidManifest.xml:22:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-storage:19.1.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/47bc598aab3dab7c8a3d7bc7762ec022/firebase-storage-19.1.0/AndroidManifest.xml:33:13-35:85
+68                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+68-->[com.google.firebase:firebase-storage:19.1.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/47bc598aab3dab7c8a3d7bc7762ec022/firebase-storage-19.1.0/AndroidManifest.xml:34:17-107
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-storage:19.1.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/47bc598aab3dab7c8a3d7bc7762ec022/firebase-storage-19.1.0/AndroidManifest.xml:35:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-auth:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/2cfbaa0f6186f4a4cf029247fd5ab3d2/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+71                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+71-->[com.google.firebase:firebase-auth:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/2cfbaa0f6186f4a4cf029247fd5ab3d2/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-auth:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/2cfbaa0f6186f4a4cf029247fd5ab3d2/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+73        </service>
+74
+75        <activity
+75-->[com.google.firebase:firebase-auth:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/2cfbaa0f6186f4a4cf029247fd5ab3d2/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+76            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+76-->[com.google.firebase:firebase-auth:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/2cfbaa0f6186f4a4cf029247fd5ab3d2/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+77            android:excludeFromRecents="true"
+77-->[com.google.firebase:firebase-auth:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/2cfbaa0f6186f4a4cf029247fd5ab3d2/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+78            android:exported="true"
+78-->[com.google.firebase:firebase-auth:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/2cfbaa0f6186f4a4cf029247fd5ab3d2/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+79            android:launchMode="singleTask"
+79-->[com.google.firebase:firebase-auth:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/2cfbaa0f6186f4a4cf029247fd5ab3d2/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+80            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+80-->[com.google.firebase:firebase-auth:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/2cfbaa0f6186f4a4cf029247fd5ab3d2/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->[com.google.firebase:firebase-auth:19.2.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/2cfbaa0f6186f4a4cf029247fd5ab3d2/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+82
+83        <provider
+83-->[com.google.firebase:firebase-common:19.3.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/daa6602ad61c2e7777573adb39793a0f/firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+84            android:name="com.google.firebase.provider.FirebaseInitProvider"
+84-->[com.google.firebase:firebase-common:19.3.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/daa6602ad61c2e7777573adb39793a0f/firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+85            android:authorities="com.github.epubparsersampleandroidapplication.firebaseinitprovider"
+85-->[com.google.firebase:firebase-common:19.3.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/daa6602ad61c2e7777573adb39793a0f/firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+86            android:exported="false"
+86-->[com.google.firebase:firebase-common:19.3.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/daa6602ad61c2e7777573adb39793a0f/firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+87            android:initOrder="100" />
+87-->[com.google.firebase:firebase-common:19.3.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/daa6602ad61c2e7777573adb39793a0f/firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+88
+89        <activity
+89-->[com.google.android.gms:play-services-base:17.1.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/4eaf8d446294d86c97c851cd40e2c41e/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+90            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+90-->[com.google.android.gms:play-services-base:17.1.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/4eaf8d446294d86c97c851cd40e2c41e/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-base:17.1.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/4eaf8d446294d86c97c851cd40e2c41e/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-base:17.1.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/4eaf8d446294d86c97c851cd40e2c41e/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+93
+94        <meta-data
+94-->[com.google.android.gms:play-services-basement:17.0.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/7636c8ad19580e4d02d83c24a1457581/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+95            android:name="com.google.android.gms.version"
+95-->[com.google.android.gms:play-services-basement:17.0.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/7636c8ad19580e4d02d83c24a1457581/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+96            android:value="@integer/google_play_services_version" />
+96-->[com.google.android.gms:play-services-basement:17.0.0] /Users/amishajindal28/.gradle/caches/transforms-2/files-2.1/7636c8ad19580e4d02d83c24a1457581/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+97    </application>
+98
+99</manifest>

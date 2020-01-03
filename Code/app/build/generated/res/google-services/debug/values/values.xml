@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">573245448741-hlp7rg4oimpnt74jj49urdfag4nrjufh.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://stud-e-book.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">573245448741</string>
+    <string name="google_api_key" translatable="false">AIzaSyC-Ce9y_8C5Ulmy3mqboo6vF0BxR3Zmfs8</string>
+    <string name="google_app_id" translatable="false">1:573245448741:android:a9563f7e42226fc46cd5cc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC-Ce9y_8C5Ulmy3mqboo6vF0BxR3Zmfs8</string>
+    <string name="google_storage_bucket" translatable="false">stud-e-book.appspot.com</string>
+    <string name="project_id" translatable="false">stud-e-book</string>
+</resources>
