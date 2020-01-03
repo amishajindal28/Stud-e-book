@@ -74,10 +74,10 @@ public class ActivityLogin extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 Intent I = new Intent(ActivityLogin.this, MainActivityTest.class);
                                 startActivity(I);
-                                Toast.makeText(ActivityLogin.this, "Not sucessfull", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ActivityLogin.this, "LOGIN SUCCESSFUL", Toast.LENGTH_SHORT).show();
                             } else {
 
-                                Toast.makeText(ActivityLogin.this, "sucessfull", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ActivityLogin.this, "LOGIN FAILED", Toast.LENGTH_SHORT).show();
                             }
                         }
                     });

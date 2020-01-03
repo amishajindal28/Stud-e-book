@@ -503,16 +503,30 @@ public class MainActivity extends AppCompatActivity implements PageFragment.OnFr
             plusbtn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    textsize += 5;
+                    if(textsize < 50){
+                        textsize += 5;
+                    }
+                    else{
+                        textsize = 50;
+                    }
                     textView.setTextSize(textsize);
+                    int page = mViewPager.getCurrentItem();
+                    mViewPager.setCurrentItem(page);
 //                Log.d("HEREEE", "onClick: ");
                 }
             });
             minusbtn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    textsize -= 5;
+                    if(textsize >5){
+                        textsize -= 5;
+                    }
+                    else{
+                        textsize=5;
+                    }
                     textView.setTextSize(textsize);
+                    int page = mViewPager.getCurrentItem();
+                    mViewPager.setCurrentItem(page);
                 }
             });
 
